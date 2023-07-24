@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     # community
     'rest_framework',
     # user
+    'datasets',
 ]
 
 MIDDLEWARE = [
