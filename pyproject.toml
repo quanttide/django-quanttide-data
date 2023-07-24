@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "setuptools_scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "quanttide-template-of-django-package"
+version = "0.1.0-alpha.1"
+description = "量潮Django包模板"
+authors = [{name = "QuantTide Inc.", email = "opensource@quanttide.com"}]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/quanttide/quanttide-template-of-django-package"
+repository = "https://github.com/quanttide/quanttide-template-of-django-package"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: Django",
+]
+python = "^3.8"
+
+[tool.poetry.dependencies]
+django = "^3.0"
+djangorestframework = "^3.0"
