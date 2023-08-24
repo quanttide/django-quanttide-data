@@ -10,6 +10,7 @@ readme = "README.md"
 python = "^3.8"
 django = "^4.2.3"
 djangorestframework = "^3.14.0"
+django-quanttide = {git = "https://github.com/quanttide/django-quanttide.git"}
 
 
 [build-system]
