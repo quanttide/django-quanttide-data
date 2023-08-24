@@ -19,7 +19,4 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-django = "^3.0"
-djangorestframework = "^3.0"
 django-quanttide = {git = "https://github.com/quanttide/django-quanttide.git"}
